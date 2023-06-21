@@ -1,0 +1,73 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+    padding: 50px;
+}
+.container{
+    width: 60%;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: auto;
+    padding: 50px;
+
+}
+header{
+    text-align: center;
+}
+header > img{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+header > span{
+    color: lime;
+    font-size: 30px;
+}
+nav > div{
+    background-color: lime;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+.button-menu{
+    
+}
+main{
+    color: white;
+}
+section{
+    margin: 15px;
+}
+.monopattino.nome{
+    font-size: 18px;
+}
+.monopattino.indirizzo{
+    font-size: 10px;
+}
+.arrow:before{
+    content: "\21A6";
+}
+.charge:before{
+    content: "Stato carica:";
+    font-size: 10px;
+}
+.level{
+    height: 20px;
+    border-radius: 5px;
+}
+.level.medium{
+    background-color: orange;
+    width: 25%; 
+}
+.level.full{
+    background-color: lime;
+    width: 50%;
+}
+.level.low{
+    background-color: red;
+    width: 12.5%;
+}
